@@ -14,6 +14,6 @@ class CnabFile(models.Model):
 
     hour = models.TimeField()
 
-    owner = models.CharField(max_length=100)
+    store = models.ForeignKey('store.Store', on_delete=models.CASCADE, related_name='transactions')
+
     
-    store_name = models.CharField(max_length=100)
