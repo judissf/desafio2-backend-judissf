@@ -16,7 +16,7 @@ O projeto consiste num sistema que recebe um arquivo CNAB (o qual contém inform
 3. Instale os pacotes necessários para funcionar o projeto "pip install -r requirements.txt"
 4. Exectue as migrations do projeto "python manage.py migrate"
 5. Por fim, para execução do projeto use "python manage.py runserver"
-6. A url para requisições é "http://127.0.0.1:8000/"
+6. A url para requisições é "http://127.0.0.1:8000/api/file"
 
 # # # Instruções para instalação e execução em ambiente de desenvolvimento (Linux):
 
@@ -25,4 +25,4 @@ O projeto consiste num sistema que recebe um arquivo CNAB (o qual contém inform
 3. Instale os pacotes necessários para funcionar o projeto "pip install -r requirements.txt"
 4. Exectue as migrations do projeto "python manage.py migrate"
 5. Por fim, para execução do projeto use "python manage.py runserver"
-6. A url para requisições é "http://127.0.0.1:8000/"
+6. A url para requisições é "http://127.0.0.1:8000/api/file"
